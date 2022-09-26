@@ -1,0 +1,13 @@
+.Content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .Content {
+        flex-direction: column-reverse;
+        margin-top: 0;
+    }
+}

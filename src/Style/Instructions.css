@@ -1,0 +1,51 @@
+.container h2 {
+    font-family: 'Playfair';
+}
+.Instructions {
+    display: flex;
+    width: 58%;
+    justify-content: space-between;
+}
+.number {
+    margin-right: 20px;
+    background-color: #F2994A;
+    min-width: 38px;
+    max-height: 36px;
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    border-radius: 8px;
+}
+.Instructions p {
+    position: relative;
+    bottom: 20px;
+}
+
+.source p {
+    opacity: .4;
+}
+
+@media screen and (max-width: 768px) {
+    .Instructions {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 425px) {
+    .Instructions {
+        min-width: 120%;
+    }
+    .Instructions p {
+        font-size: 1.2rem;
+    }
+    .container h2 {
+        font-size: 30px;
+    }
+    .source p {
+        width: 130%;
+    }
+}
+@media screen and (max-width: 375px) {
+    .Instructions {
+        min-width: 130%;
+    }
+}

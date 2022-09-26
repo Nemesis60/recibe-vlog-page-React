@@ -1,0 +1,55 @@
+.Header {
+    display: flex;
+    flex-direction: column;
+}
+.Header img {
+    max-width: 969px;
+}
+.Header h1 {
+    font-family: 'Playfair';
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 0;
+}
+.Header p {
+    padding-left: 25px;
+    font-family: 'Monserrat' sans-serif;
+    font-size: 1.1rem;
+    line-height: 17px;
+    font-style: italic;
+    font-weight: 500;
+    opacity: .7;
+    margin-top: 10px;
+    width: 592px;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .Header {
+        width: 100%;
+    }
+    .Header h1 {
+        font-size: 35px;
+    }
+    .Header p {
+        font-size: 17px;
+        width: 425px;
+    }
+    .Header img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .Header img {
+        width: 470px;
+    }
+    .Header h1 {
+        font-size: 36px;
+        width: 120%;
+    }
+    .Header p {
+        font-size: 18px;
+        width: 392px;
+    }
+}

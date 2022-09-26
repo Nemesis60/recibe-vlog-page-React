@@ -1,0 +1,58 @@
+.Ingredients {
+    margin-top: 0;
+    width: 58%;
+}
+.Ingredients h2 {
+    font-weight: 700;
+    font-family: 'Playfair';
+}
+.Ingredients h3 {
+    font-weight: 400;
+    font-style: italic;
+    font-size: 18px;
+    font-family: 'Playfair';
+}
+
+.steps-ingredients {
+    display: flex;
+}
+.steps-ingredients input {
+    margin-right: 15px;
+    width: 20px;
+}
+.steps-ingredients p {
+    font-family: 'Monserrat' sans-serif;
+    opacity: .8;
+}
+
+.italic-content input {
+    width: 40px;
+}.italic-content span {
+    font-style: italic;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+    .Ingredients {
+        width: 75%;
+    }
+}
+@media screen and (max-width: 425px) {
+    .Ingredients {
+        min-width: 120%;
+    }
+    .Ingredients h2 {
+        font-size: 30px;
+    }
+    .Ingredients h3 {
+        font-size: 25px;
+    }
+    .steps-ingredients p {
+        font-size: 1.2rem;
+    }
+}
+@media screen and (max-width: 375px) {
+    .Ingredients {
+        min-width: 130%;
+    }
+}
